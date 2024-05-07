@@ -6,7 +6,7 @@ const About = () => {
   return (
   <> 
   <Navbar/>
-    <div className="flex justify-center items-center h-screen bg-gray-200">
+    <div className="flex justify-center items-center h-screen bg-gray-200 py-4">
       <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2 w-full md:w-1/2">
         <div className="-mx-3 md:flex mb-6">
           <div className="md:w-full px-3">
