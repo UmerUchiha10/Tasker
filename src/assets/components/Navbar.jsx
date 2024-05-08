@@ -14,9 +14,7 @@ const Navbar = () => {
         <li className={`cursor-pointer transition-all ${location.pathname === "/" ? "font-bold" : ""}`}>
           <Link to="/">Home</Link>
         </li>
-        <li className={`cursor-pointer transition-all ${location.pathname === "/about" ? "font-bold" : ""}`}>
-          <Link to="/about">About</Link>
-        </li>
+       
         <li className={`cursor-pointer transition-all ${location.pathname === "/contact" ? "font-bold" : ""}`}>
           <Link to="/contact">Contact</Link>
         </li>
